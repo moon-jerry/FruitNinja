@@ -1,0 +1,33 @@
+
+CS349 ASSIGNMENT 3 MARKING SCHEME
+MARKED BY:  (@uwaterloo.ca)
+
+GUIDELINES
+The assignment needs to compile and run in order for the TA to mark it. If it doesn't compile, but the TA is able to get it working, you will only lose marks for the "Compiles and runs" section. If they cannot get it to compile, you receive zero for the assignment.
+
+MARKS
+Total: 100/100
+
+Compiles and Runs (5%)
+[5/5] Compiles and runs using the included makefile
+
+Game Elements (35%)
+[5/5] Basic elements are present: window with a titlebar, score, elapsed time and play area.
+[5/5] Game is playable using a mouse. Any use of the keyboard should be optional.
+[5/5] The score is displayed in the titlebar, and updates as fruit is sliced. A reasonable scoring mechanism is utilized.
+[5/5] A timer is displayed in the titlebar and updates as the game is played.
+[5/5] MVC pattern is utilized.
+[5/5] Java Swing components are used for the interface.
+[5/5] FruitInterface is implemented by Fruit class.
+
+Physics and Animation (30%)
+[5/5] Fruit is created off-screen and animated up from the bottom of the screen.
+[10/10] Fruit will rise up to roughly mid-screen, then descend and drop off-screen. This animation should be smooth. A simple animation is fine if it meets this basic objective.
+[5/5] Multiple pieces of fruit are shown on the screen at the same time.
+[10/10] Performance is fluid; animation runs at a playable framerate. 
+
+Interaction (30%)
+[10/10] Dragging the mouse across a piece of fruit causes the fruit to be sliced. Failing to intersect the fruit will not slice anything or having any other effect. The slice can either be triggered on mouse_up, or when the mouse moves through a piece of fruit - either is fine. 
+[5/5] Slicing a fruit causes 2 new pieces of fruit to replace the original piece.
+[10/10] Fruit is sliced along the intersection line, and the shape and size of the resulting sub-pieces match the intersection.
+[5/5] If 5 pieces of fruit fall off the screen without being sliced, the game ends.
