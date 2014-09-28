@@ -1,7 +1,5 @@
 /**
- * CS349 Winter 2014
- * Assignment 3 Demo Code
- * Jeff Avery & Michael Terry
+  Jerry yan
  */
 import java.awt.*;
 import java.awt.geom.AffineTransform;

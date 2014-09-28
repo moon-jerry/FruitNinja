@@ -1,7 +1,5 @@
 /**
- * CS349 Winter 2014
- * Assignment 3 Demo Code
- * Jeff Avery & Michael Terry
+Jerry Yan
  */
 import javax.swing.*;
 import java.awt.*;
